@@ -1,3 +1,30 @@
+# ComfyUI-FitDiTx
+
+ComfyUI custom nodes based on [https://github.com/BoyuanJiang/FitDiT](https://github.com/BoyuanJiang/FitDiT)
+
+## Installation
+
+```bash
+cd ComfyUI/custom_nodes
+git clone https://github.com/ihmily/ComfyUI-FitDiTx
+pip install -r requirements.txt
+```
+
+## Download Models
+
+```bash
+cd ComfyUI/models
+pip install huggingface_hub --upgrade
+hf download BoyuanJiang/FitDiT --local-dir FitDiT_models
+
+cd ComfyUI/models/clip
+hf download openai/clip-vit-large-patch14 --local-dir clip-vit-large-patch14
+
+hf download laion/CLIP-ViT-bigG-14-laion2B-39B-b160k --local-dir CLIP-ViT-bigG-14-laion2B-39B-b160k
+```
+
+---
+
 # FitDiT: Advancing the Authentic Garment Details for High-fidelity Virtual Try-on
 
 <div style="display: flex; justify-content: center; align-items: center;">
