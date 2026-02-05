@@ -1,7 +1,7 @@
 [project]
 name = "ComfyUI-FitDiTx"
 description = "ComfyUI implementation of 'FitDiT: Advancing the Authentic Garment Details for High-fidelity Virtual Try-on'"
-version = "1.0.0"
+version = "1.0.1"
 license = { file = "LICENSE" }
 dependencies = [
     "numpy",

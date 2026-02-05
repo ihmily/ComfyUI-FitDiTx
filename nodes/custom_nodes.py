@@ -409,6 +409,6 @@ NODE_CLASS_MAPPINGS = {
 
 NODE_DISPLAY_NAME_MAPPINGS = {
     "FitDiT_LoadModel": "FitDiT Load Model",
-    "FitDiT_GenerateMask": "FitDiT Generate Mask",
+    "FitDiT_GenerateMask": "FitDiTx Generate Mask",
     "FitDiT_TryOn": "FitDiT Virtual Try-on",
 }
